@@ -1,9 +1,10 @@
+/* eslint-disable no-console */
 import express, { Application } from 'express'
 import morgan from 'morgan'
 import * as dotenv from 'dotenv'
 import cors from 'cors'
 import Router from './routes'
-import dbConfig from './config/database'
+//import dbConfig from './config/database'
 
 export default class App {
   app: Application
